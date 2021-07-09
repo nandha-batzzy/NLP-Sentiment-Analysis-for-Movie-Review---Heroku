@@ -9,7 +9,6 @@ import pickle
 tfid = TfidfVectorizer()
 filename = 'nlp_model.pkl'
 clf = pickle.load(open(filename, 'rb'))
-cv=pickle.load(open('transform.pkl','rb'))
 corp =pickle.load(open('corpus.pkl','rb'))
 
 
